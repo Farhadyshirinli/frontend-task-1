@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      h4 {
+        text-align: center;
+      }
+    </style>
+    <h4 style="font-style: italic">Have an account?<a href=""> Login</a></h4>
+
+    <h1>Registration</h1>
+
+    <div>
+      <label for="firstname">Firstname</label> <br />
+      <input
+        type="text"
+        id="firstname"
+        placeholder="Type your firstname"
+        name="firstname"
+      />
+    </div>
+    <br />
+    <div>
+    
+      <label for="lastname">Lastname</label> <br />
+      <input
+        type="text"
+        id="lastname"
+        placeholder="Type your lastname"
+        name="lastname"
+      /></div>
+      <br />
+      <div>
+        <label for="email">E-mail adress</label> <br />
+
+        <input type="email" id="email" placeholder="Type your E-mail adress" />
+        <br />
+        <br />
+
+        <input type="email" id="email" placeholder="Re-enter e-mail adress" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label> <br />
+
+        <input type="password" id="password" placeholder="Type your password" />
+        <br />
+        <br />
+
+        <input type="email" id="email" placeholder="Re-enter password" />
+      </div>
+      <br />
+      <div></div>
+    </div>
+    <div>
+      <label for="birthdate">Birthdate</label> <br />
+      <input type="date" id="birthdate" name="birthdate" />
+    </div>
+    <br>    
+    <hr>
+    <div>
+      <label>Gender</label> <br />
+      <label for="female">
+        Female
+        <input type="radio" id="female" name="gender" />
+      </label>
+      <label for="male">
+        Male
+        <input type="radio" id="male" name="gender" />
+      </label>
+      <label for="other">
+        Other
+        <input type="radio" id="other" name="gender" />
+      </label>
+    </div>
+    <hr>
+    <br />
+    <div>
+      <label for="News">
+        <input type="checkbox" id="News" name="newsletter" />
+        Recieve our weekly newsletter
+      </label>
+    </div>
+    <br />
+    <div>
+      <button type= "button" onclick="alert('Registration successful !')" style="background-color :rgba(10, 179, 18, 0.89); color: aliceblue; font-size: larger ;">
+        Sign up
+      </button>
+    </div>
+  </body>
+</html>
